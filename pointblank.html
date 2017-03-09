@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ThermaL Team Website</title>
+
+	<!--java-->
+	<script src ="js/jquery-3.1.0.min.js"></script>
+	<script src ="js/bootstrap.min.js"></script>
+	<script src ="js/owl.carousel.js"></script>
+	<script src ="js/jquery-ui.min.js"></script>
+	<script src ="js/feedback.js"></script>
+	<script src ="js/pickmeup.min.js"></script>
+	<script src ="js/demo.js"></script>
+	<script src="js/pb/jquery.zoom.js"></script>
+	<script src="js/pb/popover.js"></script>
+	<script src="js/pb/like-dislike.js"></script>
+	<script src="js/pb/jquery.sharepage.js"></script>
+    <script src ="js/viewer.min.js"></script>
+	
+	<!--css-->
+	<link rel ="stylesheet" href="css/bootstrap.css">
+	<link rel ="stylesheet" href="css/style.css">
+	<link rel ="stylesheet" href="css/owl.carousel.css">
+	<link rel ="stylesheet" href="css/owl.theme.css">
+	<link rel ="stylesheet" href="css/jquery-ui.min.css">
+	<link rel ="stylesheet" href="css/feedback.css">
+	<link rel ="stylesheet" href="css/pickmeup.css">
+	<link rel ="stylesheet" href="css/demo.css">
+  <link rel="stylesheet" href="css/viewer.min.css">
+	<link rel="stylesheet" href="css/pb/pointblank.css">
+	<link rel="stylesheet" href="css/pb/jquery.sharepage.css">
+</head>
+<body>
+
+<!--nav-->
+<div class="parallax">
+  <nav class="navbar navbar-default navbar-fixed-top abuabu">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Dispute Bills">
+        </a>
+      </div>
+      <div id="navbar1" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Player <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="player.html">Dota 2</a></li>
+            <li><a href="csgo.html">Counter Strike Global Offensive</a></li>
+            <li><a href="pointblank.html">PointBlank</a></li>
+          </ul>
+        </li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="watch.html">Gallery</a></li>
+        </ul>
+<ul class="nav navbar-nav navbar-right">
+        <li><p class="navbar-text">Already have an account?</p></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+      <ul id="login-dp" class="dropdown-menu">
+        <li>
+           <div class="row">
+              <div class="col-md-12">
+                Login via
+                <div class="social-buttons">
+                  <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+                                or
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                       <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                    </div>
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputPassword2">Password</label>
+                       <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                    </div>
+                    <div class="form-group">
+                       <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                    </div>
+                    <div class="checkbox">
+                       <label>
+                       <input type="checkbox"> keep me logged-in
+                       </label>
+                    </div>
+                 </form>
+              </div>
+              <div class="bottom text-center">
+                New here ? <a href="register.html"><b>Join Us</b></a>
+              </div>
+           </div>
+        </li>
+      </ul>
+        </li>
+      </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav><!--end nav-->
+    <div class="container">
+    <div class="row">
+ 	<div class="col-md-14">
+  <!--owl-->
+	<div class="header">
+  <hr>
+
+    <div id="owl-demo" class="owl-carousel owl-theme">
+     
+      <div class="item"><img src="img/fullimage1.jpg" alt="The Last of us"></div>
+      <div class="item"><img src="img/fullimage2.jpg" alt="GTA V"></div>
+      <div class="item"><img src="img/fullimage3.jpg" alt="Mirror Edge"></div>
+
+      </div>
+     
+    </div>
+
+    </div> <!--header-->
+    </div><!--end colmd14-->
+    </div> <!-- end row-->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+            <div class="zoom1">
+            <div>
+            <button class="btn" id="demo-2">See More</button>
+            </div>
+            <span class='zoom' id='ex2'>
+            <img src='img/pb/1.png' width='480' height='320' alt='Roxy on the Ohoopee'/>
+            <p id="grab1">Grab</p>
+            
+            </span>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+            <div class="zoom2">
+            <div>
+            <button class="btn" id="demo-3">See More</button>
+            </div>
+            <span class='zoom' id='ex3'>
+            <img src='img/pb/2.png' width='480' height='320' alt='Roxy on the Ohoopee'/>
+            <p id="grab1">Grab</p>
+            </span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+            <div class="zoom3">
+            <div>
+            <button class="btn" id="demo-4">See More</button>
+            </div>
+            <span class='zoom' id='ex4'>
+            <img src='img/pb/3.png' width='480' height='320' alt='Roxy on the Ohoopee'/>
+            <p id="grab1">Grab</p>
+            </span>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                
+
+            <div class="zoom4">
+            <div>
+            <button class="btn" id="demo-5">See More</button>
+            </div>
+            <span class='zoom' id='ex5'>
+            <img src='img/pb/4.png' width='480' height='320' alt='Roxy on the Ohoopee'/>
+            <p id="grab1">Grab</p>
+            </span>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+            <div class="zoom5">
+            <div>
+            <button class="btn" id="demo-6">See More</button>
+            </div>
+            <span class='zoom' id='ex6'>
+
+            <img src='img/pb/5.png' width='480' height='320' alt='Roxy on the Ohoopee'/>
+            <p id="grab1">Grab</p>
+            </span>
+            </div>                            
+            </div>
+          </div>
+        </div>
+
+
+    				<hr>	
+    				
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+      <!--like-->
+<h2 style="color:white;">Like This Article</h2>
+  <div id="inilike">
+    <button class="btn like btn-danger"><span class="glyphicon" aria-hidden="true"></span> Like <span class="likes">0</span></button>
+    <button class="btn dislike btn-warning"><span class="glyphicon" aria-hidden="true"></span> Dislike <span class="dislikes">0</span></button>
+  </div>
+  <h2 style="color:white;">Share This</h2>
+<div id="share-buttons"></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-4">
+      		    <section>
+  <article>
+    <img src="img/pb/point-blank.png" class="image">
+  </article>
+</section>
+      	</div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-14">
+        <div class="partner">
+        <hr>
+        <h1> Sponsor Kami </h1>
+        <hr>
+        <img id="bg1" src="img/bg1.png">
+        <img id="bg1" src="img/bg2.png">
+        <img id="bg1" src="img/bg3.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--feedback-->
+  <div id="feedback">
+  <div id="feedback-form" style='display:none;' class="col-xs-4 col-md-4 panel panel-default">
+    <form method="POST" action="" class="form panel-body" role="form">
+      <div class="form-group">
+        <input class="form-control" name="email" autofocus placeholder="Your e-mail" type="email" />
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" name="body" required placeholder="Please write your feedback here..." rows="5"></textarea>
+      </div>
+      <button class="btn btn-primary pull-right" type="submit">Send</button>
+    </form>
+  </div>
+  <div id="feedback-tab">Feedback</div>
+</div>
+ 
+  <div class="footer">
+  <h4 id="copyright">Copyright@Dandy</h4>
+</div>
+</div>
+ <script src="js/csgo/jquery.canvasjs.min.js"></script>
+  <script src="js/csgo/imagesloaded.pkgd.min.js"></script>
+  <script src="js/csgo/hammer.min.js"></script>
+  <script src="js/csgo/sequence.js"></script>
+  <script src="js/csgo/sequence-theme.pop-slide.js"></script>
+  <script src="js/csgo/init.js"></script>
+	<script>
+ 
+
+    $(document).ready(function() {
+     //Crousel
+      var time = 7; 
+     
+      var $progressBar,
+          $bar, 
+          $elem, 
+          isPause, 
+          tick,
+          percentTime;
+          //Datepicker
+            $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+
+            //like
+            $('#inilike').likeDislike({
+       reverseMode: true,
+        disabledClass: 'disable',
+        click: function (value, btnType, event) {
+            var likes = $(this).find('.likes');
+            var dislikes = $(this).find('.dislikes');
+            value === 1 ? likes.text('1') : likes.text('0');
+            value === -1 ? dislikes.text('1') : dislikes.text('0');
+        }
+    });
+            //social
+            $(document).ready(function(){
+      $("#share-buttons").sharepage({
+        networks: ["linkedin", "facebook", "twitter", "googleplus",],
+        url: "http://google.com",
+        title: "SharePage example title",
+        source: "SharePage example page",
+        width: 650,
+        height: 600,
+        design: "buttons"
+      });
+    });
+            //hover
+            $('#demo-2').fu_popover({content:'Agung Satrio Wibowo Adalah Clan Master Untuk Team PointBalnk',dismissable:true,placement:'top',trigger:'hover',title:'Agung "Gekikara" Wibowo',});
+            $('#demo-3').fu_popover({content:'Calon Untuk Clan Master Team PointBlank,Dengan skill memaksa',dismissable:true,placement:'top',trigger:'hover',title:'Zaenal "ZaenalZae" Muttaqin',});
+            $('#demo-4').fu_popover({content:'Handal menggunakan Semua Senjata',dismissable:true,placement:'top',trigger:'hover',title:'Priambudi "Ebud" Hidayanto',});
+            $('#demo-5').fu_popover({content:'Menggunakan Skill "Forze" Yang Akan Membuat Musuh Takluk',dismissable:true,placement:'top',trigger:'hover',title:'Rizky "Focus" Febrian',});
+            $('#demo-6').fu_popover({content:'"Cimun Still Better Than Everyone"',dismissable:true,placement:'top',trigger:'hover',title:'Prayogi "Okieng" Sukmana',});
+         //zoom
+         $(document).ready(function(){
+			$('#ex2').zoom({ on:'grab' });
+			$('#ex3').zoom({ on:'grab' });
+			$('#ex4').zoom({ on:'grab' });
+			$('#ex5').zoom({ on:'grab' });
+			$('#ex6').zoom({ on:'grab' });
+		});
+
+
+        //Owl Carousel
+
+        $("#owl-demo").owlCarousel({
+          slideSpeed : 500,
+          paginationSpeed : 500,
+          singleItem : true,
+          afterInit : progressBar,
+          afterMove : moved,
+          startDragging : pauseOnDragging
+        });
+        function progressBar(elem){
+          $elem = elem;
+          buildProgressBar();
+          start();
+        }
+     
+        function buildProgressBar(){
+          $progressBar = $("<div>",{
+            id:"progressBar"
+          });
+          $bar = $("<div>",{
+            id:"bar"
+          });
+          $progressBar.append($bar).prependTo($elem);
+        }
+     
+        function start() {
+          percentTime = 0;
+          isPause = false;
+          tick = setInterval(interval, 10);
+        };
+     
+        function interval() {
+          if(isPause === false){
+            percentTime += 1 / time;
+            $bar.css({
+               width: percentTime+"%"
+             });
+            if(percentTime >= 100){
+              $elem.trigger('owl.next')
+            }
+          }
+        }
+     
+        function pauseOnDragging(){
+          isPause = true;
+        }
+     
+        function moved(){
+          clearTimeout(tick);
+          start();
+        }
+  
+    }); 
+       $('.image').viewer();
+        $('.images').viewer();
+</script>
+
+</body>
+</html>
